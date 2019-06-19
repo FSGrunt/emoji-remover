@@ -1,5 +1,4 @@
-// Version 0.0.1-alpha
-
+// unicode ranges
 var ranges = [
     '\ud83d[\ude00-\udeff]',
     '\ud83d[\udc00-\udcff]',
@@ -41,6 +40,7 @@ var ranges = [
 
 ];
 
+//removes emojis
 function removeEmojis(value){
     value = value.replace(new RegExp(ranges.join('|'), 'g'), '')
 
