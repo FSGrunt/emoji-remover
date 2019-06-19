@@ -7,25 +7,15 @@
     <!--install emoji-remover.js-->
     <script src="emoji-remover.js" type="text/javascript"></script>
 
-    <!-- test unicode -->
-    <script src="unicodes/unicode6.js" type="text/javascript"></script>
-    <script src="unicodes/unicode61.js" type="text/javascript"></script>
-    <script src="unicodes/unicode7.js" type="text/javascript"></script>
-    <script src="unicodes/unicode8.js" type="text/javascript"></script>
-    <script src="unicodes/unicode9.js" type="text/javascript"></script>
-    <script src="unicodes/unicode10.js" type="text/javascript"></script>
-
     <script>
-    //string with emojis
-    var value = "😀 😁 😂 🤣 😃 😄 😅 😆 🍆 ☻ 😃 🌍 👩‍🎨 🌪️ 🦹‍♂ 🎌 🐝 😩️";
+        //string with emojis
+        var emojis = "😀 😁 😂 🤣 😃 😄 😅 😆 🍆 ☻ 😃 🌍 👩‍🎨 🌪️ 🦹‍♂ 🎌 🐝 😩️";
 
-    var unicode = getUnicode10();
+        //run emoji js method removeEmojis
+        var result = removeEmojis(emojis);
 
-    //run emoji js method removeEmojis
-    var result = removeEmojis(unicode);
-
-    //show result
-    console.log(result);
+        //show result
+        console.log(result);
 </script>
 </head>
 <body>
