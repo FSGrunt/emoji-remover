@@ -1,7 +1,7 @@
 // Version 0.0.1-alpha
 
 var ranges = [
-    '\ud83d[\ude00-\udeff]', // unicode 6.0
+    '\ud83d[\ude00-\udeff]',
     '\ud83d[\udc00-\udcff]',
     '\ud83c[\udf00-\udfff]',
     '\u23f0',
@@ -33,7 +33,12 @@ var ranges = [
     '\u2754',
     '\u2755',
     '\ud83c[\udd00-\uddff]',
-    '\ud83c[\ude00-\udeff]' // end unicode 6.0
+    '\ud83c[\ude00-\udeff]',
+    '\u23f8[\ufe00-\ufeff]',
+    '\u23f9\ufe0f',
+    '\u23fa\ufe0f',
+    '\ud83e[\udd00-\uddff]'
+
 ];
 
 function removeEmojis(value){
