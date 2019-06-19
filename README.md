@@ -15,9 +15,9 @@ supported unicodes:
 Install
 --------------------------------------
 
-Just embed the emoji-remover.min.js
+Just embed the emoji-remover.js
 ```
-<script src="emoji-remover.min.js" type="text/javascript"></script>
+<script src="emoji-remover.js" type="text/javascript"></script>
 ```
 
 
